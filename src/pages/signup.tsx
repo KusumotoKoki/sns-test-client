@@ -29,6 +29,7 @@ const Signup = () => {
       router.push("/login");
     } catch (error) {
       // エラーが発生した場合、アラートを表示し、エラー内容をコンソールに出力します。
+      console.log(error);
       alert("入力内容が正しくありません");
     }
   };
